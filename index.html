@@ -11,44 +11,80 @@
     <nav class="nav">
       <div class="logo">Shaun Whitt</div>
       <div class="nav-links">
-        <a href="#featured">Featured Project</a>
+        <a href="#projects">Projects</a>
         <a href="#about">About</a>
       </div>
     </nav>
 
     <section class="hero-content">
+      <p class="eyebrow">Portfolio</p>
       <h1>Shaun Whitt</h1>
       <h2>Computer Science Student | Full-Stack Web Developer</h2>
       <p class="intro">
-        I build web applications with APIs, databases, and clean user-focused interfaces.
+        I build web applications with APIs, databases, and user-focused design,
+        creating projects that are practical, deployable, and easy to understand.
       </p>
+
+      <div class="featured-card">
+        <p class="section-label">Featured Project</p>
+        <h3>Solo Project 3</h3>
+        <p>
+          A production-ready full-stack collection manager with CRUD functionality,
+          SQL-backed persistence, image support, and live deployment on a custom domain.
+        </p>
+        <div class="buttons">
+          <a class="button primary" href="#">View Live App</a>
+          <a class="button secondary" href="#">View Code</a>
+        </div>
+      </div>
     </section>
   </header>
 
   <main>
-    <section id="featured" class="featured">
-      <p class="section-label">Featured Project</p>
-      <h3>Battleship Web App</h3>
-      <p>
-        A browser-based Battleship game with server-managed game state, API-driven gameplay,
-        and persistent player data.
-      </p>
+    <section id="projects" class="projects">
+      <div class="section-heading">
+        <p class="section-label">Projects</p>
+        <h2>Selected Work</h2>
+      </div>
 
-      <div class="buttons">
-        <a class="button primary" href="#">Live Demo</a>
-        <a class="button secondary" href="#">GitHub</a>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Solo Project 3</h3>
+          <p>
+            A deployed collection manager built with full CRUD support, SQL storage,
+            and production-focused deployment requirements.
+          </p>
+          <div class="card-links">
+            <a href="#">Live App</a>
+            <a href="#">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Final Project</h3>
+          <p>
+            A collaborative web application project showcasing team-based development,
+            iterative delivery, and full-stack implementation.
+          </p>
+          <div class="card-links">
+            <a href="#">Live App</a>
+            <a href="#">GitHub</a>
+          </div>
+        </article>
       </div>
     </section>
 
     <section id="about" class="about">
-      <h3>About</h3>
+      <div class="section-heading">
+        <p class="section-label">About</p>
+        <h2>Who I Am</h2>
+      </div>
       <p>
-        I am a Computer Science student at Clemson University focused on building practical,
-        deployable software projects in web development and backend systems.
+        I am a Computer Science student at Clemson University with experience building
+        web applications, backend APIs, and database-driven projects. My work focuses on
+        shipping practical software that is clean, functional, and ready to demo.
       </p>
     </section>
   </main>
-
-  <script src="script.js"></script>
 </body>
 </html>
