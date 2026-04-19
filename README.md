@@ -3,7 +3,7 @@
 This is my personal portfolio website built to showcase my full-stack web development projects, including both individual and collaborative work. The goal of this site is to demonstrate my ability to design, build, and deploy real, working applications.
 
 ## Live Site
-https://shaunwhitttea.github.io/portfolio/collection.html
+https://shaunwhitttea.github.io/portfolio/index.html
 
 ## Featured Project
 ### Collection Manager
