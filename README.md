@@ -5,6 +5,9 @@ This is my personal portfolio website built to showcase my full-stack web develo
 ## Live Site
 https://shaunwhitttea.github.io/portfolio/index.html
 
+## Domain
+https://www.shaunwhittportfolio.com
+
 ## Featured Project
 ### Collection Manager
 A full-stack web application that allows users to create, edit, view, and delete items in a personal collection.
